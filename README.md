@@ -1,25 +1,9 @@
-# FeedHenry Hello World MBaaS Server
+# RHMAP Cloud App
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+This is the mobile Cloud App for the Forum demo.
 
-# Group Hello World API
 
-# hello [/hello]
+## fis [POST] 
 
-'Hello world' endpoint.
+this is the only available endpoint, which calls Fuse Integration Services route.
 
-## hello [POST] 
-
-'Hello world' endpoint.
-
-+ Request (application/json)
-    + Body
-            {
-              "hello": "world"
-            }
-
-+ Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
